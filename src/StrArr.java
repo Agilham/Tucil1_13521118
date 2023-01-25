@@ -18,27 +18,6 @@ public class StrArr {
         this.len = len;
     }
 
-    // public double getArrElmt(StrArr array, Integer idx) {
-    //     return this.Arr[idx];
-    // }
-
-    // public static void readArr(Array array, int len) {
-
-    //     Scanner scanner = new Scanner(System.in);
-    //     array.setLen(len);
-
-    //     System.out.println("\nMasukkan nilai xk:");
-    //     String stringElmt = scanner.nextLine();
-        
-    //     String[] splitElmt = stringElmt.split("\\s+");
-    //     double[] doubleElmt = Arrays.stream(splitElmt).mapToDouble(Double::parseDouble).toArray();
-    
-    //     for (int i = 0; i < len; i++) {
-    //         array.Arr[i] = doubleElmt[i];
-    //     }
-        
-    // }
-
     public static StrArr addElmt(StrArr array, String x) {
         int n = array.len;
         StrArr newArr = new StrArr(n+1);

@@ -27,7 +27,7 @@ public class Save {
         try (FileWriter writer = new FileWriter("../Tucil1_13521118/test/" + fileName)) {
             writer.write("Solusi:\n");
             for (int i = 1; i < array.len; i++) {
-                // writer.write(Double.toString(array.Arr[i]));
+
             }
             writer.write("\n");
             writer.write("Berhasil menyimpan solusi pada " + fileName);
